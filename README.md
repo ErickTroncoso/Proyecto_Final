@@ -3,7 +3,7 @@ output:
   html_document: default
   pdf_document: default
 ---
-# Anuros de PIchincha  
+# Anuros de Pichincha  
 ### Erick Troncoso (eatroncoso@puce.edu.ec)
 ### 27 Jun 2024
 
@@ -59,11 +59,10 @@ La filogenia resultó con algunos errores, los cuales se determinó que se debie
 ![]( Imagenes/Secuen.jpeg?raw=true "Secuencias") 
 
 ### Video sobre *Ranas de Ecuador*:\   
-<iframe width="560" height="315" src="https://www.youtube.com/embed/o6yefgZ8jmI?si=qHFMBMq7m1W-bm8c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+[![Alt text](https://img.youtu.be/o6yefgZ8jmI?si=ikW4DjZGMxQ_DeHe.jpg)](https://youtu.be/o6yefgZ8jmI?si=ikW4DjZGMxQ_DeHe)
 
 ### Video sobre *Anfibios de DMQ*:\   
-<iframe width="560" height="315" src="https://www.youtube.com/embed/eKorfzWtS8U?si=D9u2kUBLfGXm9Uve" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
+[![Alt text](https://img.youtu.be/eKorfzWtS8U?si=Vi2lGJZkca_GEkHc.jpg)](https://youtu.be/eKorfzWtS8U?si=Vi2lGJZkca_GEkHc)
 
 
 
