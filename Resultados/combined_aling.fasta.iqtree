@@ -1,0 +1,439 @@
+IQ-TREE 2.2.0 COVID-edition built Jun  1 2022
+
+Input file name: combined_aling.fasta
+Type of analysis: ModelFinder + tree reconstruction + ultrafast bootstrap (1000 replicates)
+Random seed number: 168495
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+To cite ModelFinder please use: 
+
+Subha Kalyaanamoorthy, Bui Quang Minh, Thomas KF Wong, Arndt von Haeseler,
+and Lars S Jermiin (2017) ModelFinder: Fast model selection for
+accurate phylogenetic estimates. Nature Methods, 14:587–589.
+https://doi.org/10.1038/nmeth.4285
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2018) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol. Biol. Evol., 35:518–522.
+https://doi.org/10.1093/molbev/msx281
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 65 sequences with 5572 nucleotide sites
+Number of constant sites: 3185 (= 57.1608% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 3185 (= 57.1608% of all sites)
+Number of parsimony informative sites: 1309
+Number of distinct site patterns: 1997
+
+ModelFinder
+-----------
+
+Best-fit model according to BIC: GTR+F+I+G4
+
+List of models sorted by BIC scores: 
+
+Model                  LogL         AIC      w-AIC        AICc     w-AICc         BIC      w-BIC
+GTR+F+I+G4       -44194.801   88663.602 - 6.68e-07   88670.560 - 1.42e-06   89571.297 +        1
+GTR+F+I+I+R3     -44197.743   88675.486 - 1.76e-09   88682.755 -  3.2e-09   89603.057 - 1.27e-07
+GTR+F+I+I+R4     -44189.582   88663.163 - 8.32e-07   88670.644 - 1.36e-06   89603.986 - 7.98e-08
+GTR+F+G4         -44218.619   88709.238 - 8.22e-17   88716.095 - 1.84e-16   89610.308 - 3.38e-09
+GTR+F+R8         -44173.347   88644.694 -  0.00853   88652.938 -  0.00953   89631.894 - 6.94e-14
+GTR+F+R9         -44166.591   88635.181 +    0.991   88643.651 +     0.99   89635.633 - 1.07e-14
+GTR+F+R7         -44184.694   88663.389 - 7.43e-07   88671.411 - 9.29e-07   89637.339 - 4.56e-15
+GTR+F+R6         -44197.181   88684.361 - 2.08e-11   88692.164 - 2.89e-11   89645.060 - 9.61e-17
+TIM2+F+I+G4      -44244.547   88759.093 - 1.23e-27   88765.848 - 2.89e-27   89653.537 - 1.39e-18
+GTR+F+R5         -44217.459   88720.918 - 2.39e-19   88728.506 - 3.71e-19   89668.366 - 8.35e-22
+GTR+F+R4         -44248.607   88779.215 - 5.25e-32   88786.589 - 9.06e-32   89713.412 - 1.38e-31
+GTR+F+R3         -44310.984   88899.967 - 3.15e-58   88907.132 - 6.05e-58   89820.913 - 6.26e-55
+GTR+F+I+I+R2     -44420.113   89116.225 - 3.46e-105   89123.287 - 6.99e-105   90030.546 - 1.89e-100
+SYM+I+G4         -44447.406   89162.812 - 2.65e-115   89169.467 - 6.55e-115   90050.631 - 8.2e-105
+TIM2e+I+G4       -44506.120   89276.239 - 6.2e-140   89282.695 - 1.69e-139   90150.807 - 1.45e-126
+TVM+F+I+G4       -44530.894   89333.788 - 1.98e-152   89340.644 - 4.42e-152   90234.857 - 8.12e-145
+TPM2u+F+I+G4     -44575.620   89419.240 - 5.5e-171   89425.895 - 1.36e-170   90307.059 - 1.7e-160
+GTR+F+R2         -44597.372   89468.743 - 9.79e-182   89475.702 - 2.08e-181   90376.438 - 1.46e-175
+TIM3+F+I+G4      -44780.274   89830.547 - 2.67e-260   89837.302 - 6.28e-260   90724.991 - 3.01e-251
+TIM+F+I+G4       -44794.624   89859.247 - 1.56e-266   89866.002 - 3.68e-266   90753.691 - 1.76e-257
+TN+F+I+G4        -44825.857   89919.715 - 1.16e-279   89926.369 - 2.86e-279   90807.533 - 3.59e-269
+TVMe+I+G4        -44875.884   90017.769 - 5.91e-301   90024.323 - 1.54e-300   90898.962 - 5.03e-289
+TPM2+I+G4        -44927.839   90117.678 - 1.19e-322   90124.035 - 3.41e-322   90985.619 - 7.65e-308
+TPM3u+F+I+G4     -45042.462   90352.923 -        0   90359.578 -        0   91240.742 -        0
+K3Pu+F+I+G4      -45052.627   90373.255 -        0   90379.909 -        0   91261.073 -        0
+HKY+F+I+G4       -45081.716   90429.432 -        0   90435.987 -        0   91310.625 -        0
+TIM3e+I+G4       -45471.348   91206.696 -        0   91213.151 -        0   92081.263 -        0
+TIMe+I+G4        -45473.523   91211.046 -        0   91217.501 -        0   92085.613 -        0
+TNe+I+G4         -45520.945   91303.890 -        0   91310.247 -        0   92171.832 -        0
+K3P+I+G4         -45896.673   92055.346 -        0   92061.704 -        0   92923.288 -        0
+TPM3+I+G4        -45901.789   92065.577 -        0   92071.934 -        0   92933.519 -        0
+K2P+I+G4         -45943.366   92146.732 -        0   92152.992 -        0   93008.048 -        0
+GTR+F+I          -46507.031   93286.061 -        0   93292.918 -        0   94187.131 -        0
+F81+F+I+G4       -46645.980   93555.961 -        0   93562.416 -        0   94430.528 -        0
+JC+I+G4          -47228.080   94714.159 -        0   94720.322 -        0   95568.850 -        0
+GTR+F            -48976.849   98223.699 -        0   98230.454 -        0   99118.142 -        0
+
+AIC, w-AIC   : Akaike information criterion scores and weights.
+AICc, w-AICc : Corrected AIC scores and weights.
+BIC, w-BIC   : Bayesian information criterion scores and weights.
+
+Plus signs denote the 95% confidence sets.
+Minus signs denote significant exclusion.
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: GTR+F+I+G4
+
+Rate parameter R:
+
+  A-C: 4.8254
+  A-G: 9.2505
+  A-T: 8.5124
+  C-G: 0.3003
+  C-T: 29.8940
+  G-T: 1.0000
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.3245
+  pi(C) = 0.2425
+  pi(G) = 0.184
+  pi(T) = 0.249
+
+Rate matrix Q:
+
+  A   -0.7163    0.1679    0.2442    0.3042
+  C    0.2247    -1.301  0.007927     1.068
+  G    0.4308   0.01045    -0.477   0.03573
+  T    0.3964      1.04    0.0264    -1.463
+
+Model of rate heterogeneity: Invar+Gamma with 4 categories
+Proportion of invariable sites: 0.1567
+Gamma shape alpha: 0.5513
+
+ Category  Relative_rate  Proportion
+  0         0              0.1567
+  1         0.05128        0.2108
+  2         0.3369         0.2108
+  3         1.013          0.2108
+  4         3.342          0.2108
+Relative rates are computed as MEAN of the portion of the Gamma distribution falling in the category.
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -44164.7191 (s.e. 850.6251)
+Unconstrained log-likelihood (without tree): -29637.1554
+Number of free parameters (#branches + #model parameters): 137
+Akaike information criterion (AIC) score: 88603.4381
+Corrected Akaike information criterion (AICc) score: 88610.3966
+Bayesian information criterion (BIC) score: 89511.1329
+
+Total tree length (sum of branch lengths): 30.0024
+Sum of internal branch lengths: 2.6673 (8.8902% of tree length)
+
+WARNING: 1 near-zero internal branches (<0.0002) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+WARNING: 1 too long branches (>9.8000) should be treated with caution!
+NOTE: Tree is UNROOTED although outgroup taxon 'Centrolene_heloderma' is drawn at root
+Numbers in parentheses are  ultrafast bootstrap support (%)
+
++--Centrolene_heloderma
+|
+|  +--Centrolene_lynchi
++--| (100)
+|  |  +--Centrolene_ballux
+|  +--| (100)
+|     +--Centrolene_buckleyi
+|
+|  +--Centrolene_peristicta
++--| (100)
+   |     +--Nymphargus_grandisonae
+   |  +--| (89)
+   |  |  |     +--Nymphargus_griffithsi
+   |  |  |  +--| (89)
+   |  |  |  |  +--Centrolene_geckoideum
+   |  |  +--| (89)
+   |  |     +--Nymphargus_lasgralarias
+   +--| (83)
+      |           +--Centrolene_ilex
+      |        +--| (83)
+      |        |  +--Sachatamia_orejuela
+      |     +--| (79)
+      |     |  +--Hyalinobatrachium_pulveratum
+      |  +--| (90)
+      |  |  |                          +--Incilius_coniferus
+      |  |  |                       +--| (50)
+      |  |  |                       |  |  +--Rhaebo_haematiticus
+      |  |  |                       |  +--| (97)
+      |  |  |                       |     +--Rhaebo_olallai
+      |  |  |                    +--| (86)
+      |  |  |                    |  +--Osornophryne_occidentalis
+      |  |  |                 +--| (93)
+      |  |  |                 |  +--Rhinella_alata
+      |  |  |              +--| (85)
+      |  |  |              |  +--Craugastor_longirostris
+      |  |  |           +--| (70)
+      |  |  |           |  |              +--Epipedobates_boulengeri
+      |  |  |           |  |           +--| (100)
+      |  |  |           |  |           |  +--Epipedobates_machalilla
+      |  |  |           |  |        +--| (79)
+      |  |  |           |  |        |  +--Epipedobates_espinosai
+      |  |  |           |  |     +--| (99)
+      |  |  |           |  |     |  |     +--Hyloxalus_awa
+      |  |  |           |  |     |  |  +--| (92)
+      |  |  |           |  |     |  |  |  |  +--Hyloxalus_jacobuspetersi
+      |  |  |           |  |     |  |  |  +--| (90)
+      |  |  |           |  |     |  |  |     +--Hyloxalus_lehmanni
+      |  |  |           |  |     |  +--| (90)
+      |  |  |           |  |     |     +--Oophaga_sylvatica
+      |  |  |           |  |  +--| (99)
+      |  |  |           |  |  |  +--Allobates_talamancae
+      |  |  |           |  +--| (75)
+      |  |  |           |     |  +--Barycholos_pulcher
+      |  |  |           |     +--| (85)
+      |  |  |           |        |                       +--Pristimantis_achatinus
+      |  |  |           |        |                    +--| (64)
+      |  |  |           |        |                    |  +--Pristimantis_calcarulatus
+      |  |  |           |        |                 +--| (41)
+      |  |  |           |        |                 |  +--Pristimantis_appendiculatus
+      |  |  |           |        |              +--| (63)
+      |  |  |           |        |              |  +--Pristimantis_orcesi
+      |  |  |           |        |           +--| (94)
+      |  |  |           |        |           |  |  +--Pristimantis_chalceus
+      |  |  |           |        |           |  +--| (100)
+      |  |  |           |        |           |     +--Pristimantis_walkeri
+      |  |  |           |        |        +--| (90)
+      |  |  |           |        |        |  +--Pristimantis_buckleyi
+      |  |  |           |        |     +--| (98)
+      |  |  |           |        |     |  +--Pristimantis_eriphus
+      |  |  |           |        |  +--| (96)
+      |  |  |           |        |  |  |  +--Pristimantis_actites
+      |  |  |           |        |  |  +--| (100)
+      |  |  |           |        |  |     +--Pristimantis_labiosus
+      |  |  |           |        +--| (96)
+      |  |  |           |           +--Pristimantis_caprifer
+      |  |  |        +--| (38)
+      |  |  |        |  |        +--Gastrotheca_cornuta
+      |  |  |        |  |     +--| (98)
+      |  |  |        |  |     |  +--Gastrotheca_guentheri
+      |  |  |        |  |  +--| (100)
+      |  |  |        |  |  |  |  +--Gastrotheca_plumbea
+      |  |  |        |  |  |  +--| (100)
+      |  |  |        |  |  |     +--Gastrotheca_riobambae
+      |  |  |        |  +--| (62)
+      |  |  |        |     |  +--Dendropsophus_carnifex
+      |  |  |        |     +--| (92)
+      |  |  |        |        +--Dendropsophus_ebraccatus
+      |  |  |     +--| (89)
+      |  |  |     |  |  +--Agalychnis_spurrelli
+      |  |  |     |  +--| (53)
+      |  |  |     |     |                 +--Hypsiboas_boans
+      |  |  |     |     |              +--| (48)
+      |  |  |     |     |              |  +--Boana_pellucens
+      |  |  |     |     |           +--| (43)
+      |  |  |     |     |           |  +--Boana_rosenbergi
+      |  |  |     |     |        +--| (80)
+      |  |  |     |     |        |  |  +--Boana_picturata
+      |  |  |     |     |        |  +**| (12)
+      |  |  |     |     |        |     +----------------------------------------------------------Stenocercus_guentheri
+      |  |  |     |     |     +--| (81)
+      |  |  |     |     |     |  |        +--Hyloscirtus_alytolylax
+      |  |  |     |     |     |  |     +--| (100)
+      |  |  |     |     |     |  |     |  +--Hyloscirtus_mashpi
+      |  |  |     |     |     |  |  +--| (99)
+      |  |  |     |     |     |  |  |  +--Hyloscirtus_palmeri
+      |  |  |     |     |     |  +--| (99)
+      |  |  |     |     |     |     +--Hyloscirtus_criptico
+      |  |  |     |     |  +--| (70)
+      |  |  |     |     |  |  |     +--Scinax_quinquefasciatus
+      |  |  |     |     |  |  |  +--| (98)
+      |  |  |     |     |  |  |  |  +--Scinax_tsachila
+      |  |  |     |     |  |  +--| (89)
+      |  |  |     |     |  |     |  +--Rana_bwana
+      |  |  |     |     |  |     +--| (100)
+      |  |  |     |     |  |        +--Rana_vaillanti
+      |  |  |     |     +--| (36)
+      |  |  |     |        |  +--Smilisca_phaeota
+      |  |  |     |        +--| (72)
+      |  |  |     |           +--Trachycephalus_jordani
+      |  |  |  +--| (51)
+      |  |  |  |  |     +--Leptodactylus_labrosus
+      |  |  |  |  |  +--| (99)
+      |  |  |  |  |  |  +--Leptodactylus_ventrimaculatus
+      |  |  |  |  +--| (94)
+      |  |  |  |     +--Leptodactylus_melanonotus
+      |  |  +--| (100)
+      |  |     +--Engystomops_coloradorum
+      +--| (100)
+         +--Cochranella_spinosa
+
+Tree in newick format:
+
+(Centrolene_heloderma:0.0070628416,(Centrolene_lynchi:0.0236662413,(Centrolene_ballux:0.0123246945,Centrolene_buckleyi:0.0113247704)100:0.0130201485)100:0.0041316084,(Centrolene_peristicta:0.0416459239,((Nymphargus_grandisonae:0.0215278035,((Nymphargus_griffithsi:0.0086585908,Centrolene_geckoideum:0.0466862390)89:0.0139019312,Nymphargus_lasgralarias:0.0212420431)89:0.0208814157)89:0.0157294125,((((Centrolene_ilex:0.0313435831,Sachatamia_orejuela:0.0345784780)83:0.0195809298,Hyalinobatrachium_pulveratum:0.0630127431)79:0.0114594020,(((((((((Incilius_coniferus:0.0666508911,(Rhaebo_haematiticus:0.0548523205,Rhaebo_olallai:0.0599183112)97:0.0182872150)50:0.0020306603,Osornophryne_occidentalis:0.1889315915)86:0.0182582180,Rhinella_alata:0.0663763228)93:0.0218206228,Craugastor_longirostris:0.5677982333)85:0.0562284566,(((((Epipedobates_boulengeri:0.0212383961,Epipedobates_machalilla:0.0084184543)100:0.1257860806,Epipedobates_espinosai:0.2043998484)79:0.0035658558,((Hyloxalus_awa:0.0904487686,(Hyloxalus_jacobuspetersi:0.0681566514,Hyloxalus_lehmanni:0.0854984672)90:0.0169363648)92:0.0299140036,Oophaga_sylvatica:0.1770958762)90:0.0265747381)99:0.0397705849,Allobates_talamancae:0.2306881216)99:0.0720724726,(Barycholos_pulcher:0.3435605036,((((((((Pristimantis_achatinus:0.2416335620,Pristimantis_calcarulatus:0.0764899958)64:0.0274523622,Pristimantis_appendiculatus:0.1009491590)41:0.0152980232,Pristimantis_orcesi:0.0768018885)63:0.0201794499,(Pristimantis_chalceus:0.1143127025,Pristimantis_walkeri:0.1359066875)100:0.0848218465)94:0.0217994312,Pristimantis_buckleyi:0.1177479647)90:0.0084918674,Pristimantis_eriphus:0.1554001326)98:0.0318316269,(Pristimantis_actites:0.1534986760,Pristimantis_labiosus:0.1736851255)100:0.1002536386)96:0.0233529962,Pristimantis_caprifer:0.1993827189)96:0.0769249778)85:0.0872105524)75:0.0176028855)70:0.0163121501,(((Gastrotheca_cornuta:0.1110856162,Gastrotheca_guentheri:0.1566716856)98:0.0246574636,(Gastrotheca_plumbea:0.0491160479,Gastrotheca_riobambae:0.0922306269)100:0.0462616041)100:0.1026280491,(Dendropsophus_carnifex:0.1833101227,Dendropsophus_ebraccatus:0.1477670189)92:0.0657435686)62:0.0259371305)38:0.0164520759,(Agalychnis_spurrelli:0.2363177046,((((((Hypsiboas_boans:0.1182451657,Boana_pellucens:0.1139812603)48:0.0149693765,Boana_rosenbergi:0.0998960081)43:0.0091769772,(Boana_picturata:0.1462596397,Stenocercus_guentheri:20.4291082543)12:0.0000021520)80:0.0590795367,(((Hyloscirtus_alytolylax:0.0458069289,Hyloscirtus_mashpi:0.0281328706)100:0.1263689886,Hyloscirtus_palmeri:0.1682150123)99:0.0352541148,Hyloscirtus_criptico:0.0840921113)99:0.0677127252)81:0.0704959642,((Scinax_quinquefasciatus:0.1144698160,Scinax_tsachila:0.1654675942)98:0.0534310916,(Rana_bwana:0.0041249477,Rana_vaillanti:0.1024040932)100:0.4466514772)89:0.0437744790)70:0.0172819867,(Smilisca_phaeota:0.1475182030,Trachycephalus_jordani:0.0997566148)72:0.0298038531)36:0.0144970808)53:0.0072862390)89:0.0236505003,((Leptodactylus_labrosus:0.0010297006,Leptodactylus_ventrimaculatus:0.0168717111)99:0.0524530539,Leptodactylus_melanonotus:0.1351027507)94:0.1136588977)51:0.0121515748,Engystomops_coloradorum:0.1924222256)100:0.0617675104)90:0.0105794230,Cochranella_spinosa:0.0428215909)100:0.0252332498)83:0.0033260278)100:0.0255213566);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000 bootstrap trees
+Log-likelihood of consensus tree: -44175.909465
+Robinson-Foulds distance between ML tree and consensus tree: 2
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++--Centrolene_heloderma
+|
+|  +--Centrolene_lynchi
++--| (100)
+|  |  +--Centrolene_ballux
+|  +--| (100)
+|     +--Centrolene_buckleyi
+|
+|  +--Centrolene_peristicta
++--| (100)
+   |     +--Nymphargus_grandisonae
+   |  +--| (89)
+   |  |  |     +--Nymphargus_griffithsi
+   |  |  |  +--| (89)
+   |  |  |  |  +--Centrolene_geckoideum
+   |  |  +--| (89)
+   |  |     +--Nymphargus_lasgralarias
+   +--| (83)
+      |           +--Centrolene_ilex
+      |        +--| (83)
+      |        |  +--Sachatamia_orejuela
+      |     +--| (79)
+      |     |  +--Hyalinobatrachium_pulveratum
+      |  +--| (90)
+      |  |  |                          +--Incilius_coniferus
+      |  |  |                       +--| (50)
+      |  |  |                       |  |  +--Rhaebo_haematiticus
+      |  |  |                       |  +--| (97)
+      |  |  |                       |     +--Rhaebo_olallai
+      |  |  |                    +--| (86)
+      |  |  |                    |  +--Osornophryne_occidentalis
+      |  |  |                 +--| (93)
+      |  |  |                 |  +--Rhinella_alata
+      |  |  |              +--| (85)
+      |  |  |              |  +--Craugastor_longirostris
+      |  |  |           +--| (70)
+      |  |  |           |  |              +--Epipedobates_boulengeri
+      |  |  |           |  |           +--| (100)
+      |  |  |           |  |           |  +--Epipedobates_machalilla
+      |  |  |           |  |        +--| (79)
+      |  |  |           |  |        |  +--Epipedobates_espinosai
+      |  |  |           |  |     +--| (99)
+      |  |  |           |  |     |  |     +--Hyloxalus_awa
+      |  |  |           |  |     |  |  +--| (92)
+      |  |  |           |  |     |  |  |  |  +--Hyloxalus_jacobuspetersi
+      |  |  |           |  |     |  |  |  +--| (90)
+      |  |  |           |  |     |  |  |     +--Hyloxalus_lehmanni
+      |  |  |           |  |     |  +--| (90)
+      |  |  |           |  |     |     +--Oophaga_sylvatica
+      |  |  |           |  |  +--| (99)
+      |  |  |           |  |  |  +--Allobates_talamancae
+      |  |  |           |  +--| (75)
+      |  |  |           |     |  +--Barycholos_pulcher
+      |  |  |           |     +--| (85)
+      |  |  |           |        |                       +--Pristimantis_achatinus
+      |  |  |           |        |                    +--| (64)
+      |  |  |           |        |                    |  +--Pristimantis_calcarulatus
+      |  |  |           |        |                 +--| (41)
+      |  |  |           |        |                 |  +--Pristimantis_appendiculatus
+      |  |  |           |        |              +--| (63)
+      |  |  |           |        |              |  +--Pristimantis_orcesi
+      |  |  |           |        |           +--| (94)
+      |  |  |           |        |           |  |  +--Pristimantis_chalceus
+      |  |  |           |        |           |  +--| (100)
+      |  |  |           |        |           |     +--Pristimantis_walkeri
+      |  |  |           |        |        +--| (90)
+      |  |  |           |        |        |  +--Pristimantis_buckleyi
+      |  |  |           |        |     +--| (98)
+      |  |  |           |        |     |  +--Pristimantis_eriphus
+      |  |  |           |        |  +--| (96)
+      |  |  |           |        |  |  |  +--Pristimantis_actites
+      |  |  |           |        |  |  +--| (100)
+      |  |  |           |        |  |     +--Pristimantis_labiosus
+      |  |  |           |        +--| (96)
+      |  |  |           |           +--Pristimantis_caprifer
+      |  |  |        +--| (38)
+      |  |  |        |  |        +--Gastrotheca_cornuta
+      |  |  |        |  |     +--| (98)
+      |  |  |        |  |     |  +--Gastrotheca_guentheri
+      |  |  |        |  |  +--| (100)
+      |  |  |        |  |  |  |  +--Gastrotheca_plumbea
+      |  |  |        |  |  |  +--| (100)
+      |  |  |        |  |  |     +--Gastrotheca_riobambae
+      |  |  |        |  +--| (62)
+      |  |  |        |     |  +--Dendropsophus_carnifex
+      |  |  |        |     +--| (92)
+      |  |  |        |        +--Dendropsophus_ebraccatus
+      |  |  |     +--| (89)
+      |  |  |     |  |  +--Agalychnis_spurrelli
+      |  |  |     |  +--| (53)
+      |  |  |     |     |                    +--Hypsiboas_boans
+      |  |  |     |     |                 +--| (48)
+      |  |  |     |     |                 |  +--Boana_pellucens
+      |  |  |     |     |              +--| (43)
+      |  |  |     |     |              |  +--Boana_rosenbergi
+      |  |  |     |     |           +--| (35)
+      |  |  |     |     |           |  +---------------------------------------------------------Stenocercus_guentheri
+      |  |  |     |     |        +--| (80)
+      |  |  |     |     |        |  +--Boana_picturata
+      |  |  |     |     |     +--| (81)
+      |  |  |     |     |     |  |        +--Hyloscirtus_alytolylax
+      |  |  |     |     |     |  |     +--| (100)
+      |  |  |     |     |     |  |     |  +--Hyloscirtus_mashpi
+      |  |  |     |     |     |  |  +--| (99)
+      |  |  |     |     |     |  |  |  +--Hyloscirtus_palmeri
+      |  |  |     |     |     |  +--| (99)
+      |  |  |     |     |     |     +--Hyloscirtus_criptico
+      |  |  |     |     |  +--| (70)
+      |  |  |     |     |  |  |     +--Scinax_quinquefasciatus
+      |  |  |     |     |  |  |  +--| (98)
+      |  |  |     |     |  |  |  |  +--Scinax_tsachila
+      |  |  |     |     |  |  +--| (89)
+      |  |  |     |     |  |     |  +--Rana_bwana
+      |  |  |     |     |  |     +--| (100)
+      |  |  |     |     |  |        +--Rana_vaillanti
+      |  |  |     |     +--| (36)
+      |  |  |     |        |  +--Smilisca_phaeota
+      |  |  |     |        +--| (72)
+      |  |  |     |           +--Trachycephalus_jordani
+      |  |  |  +--| (51)
+      |  |  |  |  |     +--Leptodactylus_labrosus
+      |  |  |  |  |  +--| (99)
+      |  |  |  |  |  |  +--Leptodactylus_ventrimaculatus
+      |  |  |  |  +--| (94)
+      |  |  |  |     +--Leptodactylus_melanonotus
+      |  |  +--| (100)
+      |  |     +--Engystomops_coloradorum
+      +--| (100)
+         +--Cochranella_spinosa
+
+
+Consensus tree in newick format: 
+
+(Centrolene_heloderma:0.0069867649,(Centrolene_lynchi:0.0234272369,(Centrolene_ballux:0.0122089159,Centrolene_buckleyi:0.0112212296)100:0.0128898362)100:0.0041209296,(Centrolene_peristicta:0.0412168100,((Nymphargus_grandisonae:0.0213453241,((Nymphargus_griffithsi:0.0085580541,Centrolene_geckoideum:0.0461535392)89:0.0137982697,Nymphargus_lasgralarias:0.0210388416)89:0.0206541039)89:0.0155829856,((((Centrolene_ilex:0.0309907050,Sachatamia_orejuela:0.0343570337)83:0.0194562225,Hyalinobatrachium_pulveratum:0.0623427073)79:0.0112487220,(((((((((Incilius_coniferus:0.0659526004,(Rhaebo_haematiticus:0.0542508750,Rhaebo_olallai:0.0593753504)97:0.0181429188)50:0.0020779481,Osornophryne_occidentalis:0.1862025602)86:0.0181115370,Rhinella_alata:0.0655598098)93:0.0217545082,Craugastor_longirostris:0.5553230671)85:0.0554482304,(((((Epipedobates_boulengeri:0.0210748938,Epipedobates_machalilla:0.0083519372)100:0.1241711579,Epipedobates_espinosai:0.2021988298)79:0.0036058044,((Hyloxalus_awa:0.0895585492,(Hyloxalus_jacobuspetersi:0.0677961910,Hyloxalus_lehmanni:0.0846983332)90:0.0169427657)92:0.0297711651,Oophaga_sylvatica:0.1747202885)90:0.0264250174)99:0.0395780763,Allobates_talamancae:0.2292120975)99:0.0712583448,(Barycholos_pulcher:0.3371558120,((((((((Pristimantis_achatinus:0.2373202830,Pristimantis_calcarulatus:0.0758064520)64:0.0272274554,Pristimantis_appendiculatus:0.1000132017)41:0.0151697178,Pristimantis_orcesi:0.0762037784)63:0.0200333479,(Pristimantis_chalceus:0.1132291220,Pristimantis_walkeri:0.1338514577)100:0.0839670461)94:0.0216277269,Pristimantis_buckleyi:0.1166783283)90:0.0083564103,Pristimantis_eriphus:0.1539427132)98:0.0316805798,(Pristimantis_actites:0.1518389920,Pristimantis_labiosus:0.1718853080)100:0.0992453105)96:0.0231078567,Pristimantis_caprifer:0.1972327591)96:0.0780060855)85:0.0847696234)75:0.0174037670)70:0.0162272429,(((Gastrotheca_cornuta:0.1098584111,Gastrotheca_guentheri:0.1544852203)98:0.0247055808,(Gastrotheca_plumbea:0.0486478526,Gastrotheca_riobambae:0.0910672752)100:0.0455863042)100:0.1014837632,(Dendropsophus_carnifex:0.1807498628,Dendropsophus_ebraccatus:0.1461990067)92:0.0651580999)62:0.0258159990)38:0.0162668730,(Agalychnis_spurrelli:0.2338949317,(((((((Hypsiboas_boans:0.1171927724,Boana_pellucens:0.1129256384)48:0.0149806356,Boana_rosenbergi:0.0985321094)43:0.0079217985,Stenocercus_guentheri:9.9999987973)35:0.0011635490,Boana_picturata:0.1447884546)80:0.0583063777,(((Hyloscirtus_alytolylax:0.0451484837,Hyloscirtus_mashpi:0.0276311455)100:0.1241597698,Hyloscirtus_palmeri:0.1652893077)99:0.0348065782,Hyloscirtus_criptico:0.0830923009)99:0.0667713745)81:0.0699358586,((Scinax_quinquefasciatus:0.1128012728,Scinax_tsachila:0.1636261394)98:0.0523899749,(Rana_bwana:0.0041486890,Rana_vaillanti:0.1015799386)100:0.4411866813)89:0.0437390496)70:0.0171422724,(Smilisca_phaeota:0.1460343168,Trachycephalus_jordani:0.0984024108)72:0.0296662435)36:0.0144482905)53:0.0071763423)89:0.0234444126,((Leptodactylus_labrosus:0.0010396497,Leptodactylus_ventrimaculatus:0.0166802802)99:0.0517573325,Leptodactylus_melanonotus:0.1337309563)94:0.1123929036)51:0.0121633142,Engystomops_coloradorum:0.1903891265)100:0.0611133779)90:0.0105658311,Cochranella_spinosa:0.0423919667)100:0.0249720748)83:0.0033171257)100:0.0252589224);
+
+TIME STAMP
+----------
+
+Date and time: Thu Jun 27 19:17:15 2024
+Total CPU time used: 378.51615 seconds (0h:6m:18s)
+Total wall-clock time used: 379.3131261 seconds (0h:6m:19s)
+
