@@ -59,10 +59,10 @@ La filogenia resultó con algunos errores, los cuales se determinó que se debie
 ![]( Imagenes/Secuen.jpeg?raw=true "Secuencias") 
 
 ### Video sobre *Ranas de Ecuador*:   
-[![]] (https://markdown-videos.deta.dev/youtube/o6yefgZ8jmI?si=ikW4DjZGMxQ_DeHe/0.jpg](https://youtu.be/o6yefgZ8jmI?si=ikW4DjZGMxQ_DeHe/0.jpg)|
+[![Alt text](https://img.youtube.com/vi/o6yefgZ8jmI?si=GiMH0-7oCNZFCMYc)](https://www.youtube.com/watch?v=o6yefgZ8jmI?si=GiMH0-7oCNZFCMYc)
 
 ### Video sobre *Anfibios de DMQ*:  
-[![Alt text](https://img.youtube.com/vi/o6yefgZ8jmI?si=ikW4DjZGMxQ_DeHe/0.jpg)](https://www.youtube.com/o6yefgZ8jmI?si=ikW4DjZGMxQ_DeHe)
+[![Alt text](https://img.youtube.com/vi/eKorfzWtS8U?si=xe-tab728W4AXgIH/0.jpg)](https://www.youtube.com/eKorfzWtS8U?si=xe-tab728W4AXgIH)
 
 
 
