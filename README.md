@@ -51,18 +51,18 @@ El objetivo de este trabajo es realizar una filogenia de los diferentes anfibios
 7. Se editó la filogenia resultante utilizando el programa FigTree para visualización y análisis adicionales.
 
 ### Filogenia de Anuros de Pichincha
-![]( /Users/erick_troncoso/Desktop/PF_Anurospichincha/Imagenes/Filogenia.jpg?raw=true "Filogenia")  
+![]( Imagenes/Filogenia.jpg?raw=true "Filogenia")  
 
 La filogenia resultó con algunos errores, los cuales se determinó que se debieron a la calidad de las secuencias descargadas de GenBank. Se utilizó la región 12s del RNA ribosomal, de la cual algunas secuencias no estaban completas, afectando así la precisión y fiabilidad de los resultados obtenidos.
 
 ### Diferencia en las secuencias 
-![]( /Users/erick_troncoso/Desktop/PF_Anurospichincha/Imagenes/Secuen.jpeg?raw=true "Secuencias") 
+![]( Imagenes/Secuen.jpeg?raw=true "Secuencias") 
 
 ### Video sobre *Ranas de Ecuador*:\   
-<iframe src="https://www.youtube.com/embed/o6yefgZ8jmI?si=hBHXm0yWI-zeN-59"data-external= "1" width="560" height="315"> </iframe> 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/o6yefgZ8jmI?si=qHFMBMq7m1W-bm8c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ### Video sobre *Anfibios de DMQ*:\   
-<iframe src="https://www.youtube.com/embed/eKorfzWtS8U?si=hEb1JHBq6MB-Pwlu"data-external= "1" width="560" height="315"> </iframe> 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/eKorfzWtS8U?si=D9u2kUBLfGXm9Uve" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
 
