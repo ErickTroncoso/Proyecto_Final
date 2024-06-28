@@ -49,7 +49,7 @@ El objetivo de este trabajo es realizar una filogenia de los diferentes anfibios
    ```
 
 7. Se editó la filogenia resultante utilizando el programa FigTree para visualización y análisis adicionales.
-```
+
 ### Filogenia de Anuros de Pichincha
 ![]( /Users/erick_troncoso/Desktop/PF_Anurospichincha/Imagenes/Filogenia.jpg?raw=true "Filogenia")  
 
